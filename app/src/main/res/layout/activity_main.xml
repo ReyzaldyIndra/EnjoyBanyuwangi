@@ -6,33 +6,92 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:background="@color/biruSlebew"
     tools:context=".MainActivity">
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo, Ega!"
+        android:textSize="30sp"
+        android:textColor="@color/putihSlebew"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo Anda"
+        android:textColor="@color/putihSlebew"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp"
+        android:textColor="@color/putihSlebew"
+        android:textSize="20sp"
+        android:layout_marginRight="90dp"/>
+    <TextView
+        android:textColor="@color/putihSlebew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50010354471"
+        android:textSize="30sp"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:backgroundTint="@color/biruSlebew">
+        android:backgroundTint="@color/biruSlebew"
+        android:background="@drawable/card_round"
+        android:layout_marginTop="80dp">
 
         <ImageButton
             android:id="@+id/btn_pay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/pay"/>
+            android:src="@drawable/pay"
+            android:layout_marginHorizontal="15dp"
+            android:backgroundTint="@color/biruSlebew"/>
         <ImageButton
             android:id="@+id/btn_nearby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/nearby"/>
+            android:src="@drawable/nearby"
+            android:layout_marginHorizontal="15dp"
+            android:backgroundTint="@color/biruSlebew"/>
+
+        <ImageButton
+            android:id="@+id/btn_topup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/top_up"
+            android:layout_marginHorizontal="15dp"
+            android:backgroundTint="@color/biruSlebew"/>
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/btn_tourism"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/tourism"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <ImageButton
+            android:id="@+id/btn_tourism"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/custom_itinerary"
+            android:backgroundTint="@color/putihSlebew"/>
+        <ImageButton
+            android:id="@+id/btn_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/scan_barcode"
+            android:backgroundTint="@color/putihSlebew"/>
+
+    </LinearLayout>
+
 
 
 

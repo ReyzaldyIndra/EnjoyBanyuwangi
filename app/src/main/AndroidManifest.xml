@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".itinerary3"></activity>
+        <activity android:name=".itinerary6"></activity>
+        <activity android:name=".itinerary5" />
+        <activity android:name=".itinerary4" />
+        <activity android:name=".itinerary3" />
         <activity android:name=".itinerary2" />
         <activity android:name=".itinerary1" />
         <activity android:name=".FilterActivity" />

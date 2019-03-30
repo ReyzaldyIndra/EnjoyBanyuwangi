@@ -6,22 +6,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:background="@color/biruSlebew"
     tools:context=".itinerary2">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar2"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pilih Homestay"/>
+        android:text="Pilih Homestay"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:textColor="@color/putihSlebew"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10dp"/>
     <ImageButton
         android:id="@+id/btn_homestay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/kawah_ijen_1"/>
+        android:src="@drawable/bananahomestay"
+        android:background="@color/biruSlebew"/>
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/teluk_hijau"/>
+        android:src="@drawable/banyu_homestay"
+        android:background="@color/biruSlebew"/>
 
 
 </LinearLayout>

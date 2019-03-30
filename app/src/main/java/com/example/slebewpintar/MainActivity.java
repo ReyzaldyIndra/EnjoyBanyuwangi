@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton btnPay, btnNearby, btnTopUp, btnStore, btnTourism, btnSouvenir, btnCulinary;
+    ImageButton btnPay, btnNearby, btnTopUp, btnStore, btnTourism, btnSouvenir, btnCulinary, btnScan;
     TextView balance;
     Button btnSwp;
 
@@ -20,15 +20,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnPay = findViewById(R.id.btn_pay);
+        btnScan = findViewById(R.id.btn_scan);
         btnTourism = findViewById(R.id.btn_tourism);
-        btnPay.setOnClickListener(new View.OnClickListener() {
+        btnTourism.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, itinerary1.class);
                 startActivity(i);
             }
         });
-        btnTourism.setOnClickListener(new View.OnClickListener() {
+        btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent in = new Intent(MainActivity.this, CustomActivity.class);
