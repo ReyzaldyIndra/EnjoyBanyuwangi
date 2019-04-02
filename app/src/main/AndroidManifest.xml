@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".itinerary6"></activity>
+
+        <activity android:name=".itinerary7" ></activity>
+        <activity android:name=".itinerary6" />
         <activity android:name=".itinerary5" />
         <activity android:name=".itinerary4" />
         <activity android:name=".itinerary3" />
@@ -22,9 +24,8 @@
         <activity android:name=".FilterActivity" />
         <activity android:name=".CustomActivity" />
         <activity android:name=".JodohActivity" />
-        <activity android:name=".PaymentConfirmActivity" />
-        <activity android:name=".BarcodeCaptureActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

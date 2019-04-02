@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class itinerary5 extends AppCompatActivity {
-    ImageButton cv;
-
+public class LoginActivity extends AppCompatActivity {
+        ImageButton gsignin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_itinerary5);
-        cv = findViewById(R.id.cv_tg);
-        cv.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_login);
+        gsignin = findViewById(R.id.gsign);
+        gsignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in = new Intent(itinerary5.this, itinerary6.class);
-                startActivity(in);
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
             }
         });
+
 
     }
 }

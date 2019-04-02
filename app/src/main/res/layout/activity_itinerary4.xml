@@ -47,6 +47,13 @@
             android:textColor="@color/putihSlebew"/>
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btn_panjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="lanjut"/>
+
 
 
 </LinearLayout>
